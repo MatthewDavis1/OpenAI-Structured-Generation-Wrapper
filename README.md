@@ -10,6 +10,10 @@ This mini project provides a simple wrapper around OpenAI's structured generatio
 - Generate integers within a specified range.
 - Generate boolean values.
 
+## Installation
+
+To install this package, clone this repo, and run ```pip install -r requirements.txt```.
+
 ## Usage
 
 Here's how to use the wrapper in your code:
