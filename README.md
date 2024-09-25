@@ -50,3 +50,7 @@ print(integer_response)  # Output: A number between 1 and 10
 bool_response = llm.generate_bool("Is Paris the capital of France?")
 print(bool_response)  # Output: True
 ```
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE.txt) file for details.
