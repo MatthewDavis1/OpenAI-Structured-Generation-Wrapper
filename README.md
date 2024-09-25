@@ -51,6 +51,8 @@ bool_response = llm.generate_bool("Is Paris the capital of France?")
 print(bool_response)  # Output: True
 ```
 
+Note: you must have the ```OPENAI_API_KEY``` environment variable set.
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE.txt) file for details.

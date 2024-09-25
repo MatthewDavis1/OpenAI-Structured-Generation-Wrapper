@@ -2,8 +2,12 @@
 
 import argparse
 from llm import LLM
+import os
 
 if __name__ == "__main__":
+    if 'OPENAI_API_KEY' not in os.environ:
+        raise EnvironmentError("The OPENAI_API_KEY environment variable is not set.")
+
     parser = argparse.ArgumentParser(description="Generate a response from input prompt.")
     parser.add_argument("input_prompt", type=str, help="Input prompt for generation")
     parser.add_argument("--choices", type=str, help="Comma-separated list of choices for multiple-choice")
